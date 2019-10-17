@@ -1,0 +1,24 @@
+{
+  "name": "Do-or-Diet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Do-or-Diet/Do-or-Diet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Do-or-Diet/Do-or-Diet/issues"
+  },
+  "homepage": "https://github.com/Do-or-Diet/Do-or-Diet#readme",
+  "dependencies": {
+    "sequelize": "^5.19.8"
+  }
+}
