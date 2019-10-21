@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Do-or-Diet/Do-or-Diet#readme",
   "dependencies": {
-    "sequelize": "^5.19.8"
+    "sequelize": "^5.19.8",
+    "unirest": "^0.6.0"
   }
 }
