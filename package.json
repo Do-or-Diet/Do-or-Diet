@@ -12,10 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
-    "sequelize": "^5.19.8",
-    "unirest": "^0.6.0"
-=======
     "bcryptjs": "2.4.3",
     "express": "^4.17.0",
     "express-session": "^1.17.0",
@@ -24,6 +20,5 @@
     "passport-local": "^1.0.0",
     "path": "^0.12.7",
     "sequelize": "^5.8.6"
->>>>>>> d5d1ef74440af434f477b36454ae478e7143198f
   }
 }
