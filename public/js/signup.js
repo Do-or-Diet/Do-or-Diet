@@ -1,41 +1,38 @@
-$(document).ready(function() {
+$(document).ready(function () {
   // Getting references to our form and input
   var signUpForm = $("form.signup");
   var emailInput = $("input#email-input");
   var passwordInput = $("input#password-input");
-  var ageInput = $("input#age-input");
-  var weightInput = $("input#weight-input");
-  var calorieInput = $("#input#calorie-input");
-
+  var dietInput = $("input#diet-input");
 
   // When the signup button is clicked, we validate the email and password are not blank
-  signUpForm.on("submit", function(event) {
+  signUpForm.on("submit", function (event) {
     event.preventDefault();
     var userData = {
       email: emailInput.val().trim(),
       password: passwordInput.val().trim(),
-      age: ageInput.val().trim(),
-      weight: weightInput.val().trim(),
-      calorie:calorieInput.val().trim(),
-        };
-
+      diet: dietInput.val().trim()
+    };
     if (!userData.email || !userData.password) {
       return;
     }
     // If we have an email and password, run the signUpUser function
-    signUpUser(userData.email, userData.password);
+    signUpUser(userData.email, userData.password, userData.diet);
     emailInput.val("");
     passwordInput.val("");
+    dietInput.val("");
   });
 
   // Does a post to the signup route. If successful, we are redirected to the members page
   // Otherwise we log any errors
-  function signUpUser(email, password) {
+  function signUpUser(email, password, diet) {
+    console.log(email, password, diet);
     $.post("/api/signup", {
       email: email,
-      password: password
+      password: password,
+      diet: diet
     })
-      .then(function(data) {
+      .then(function (data) {
         window.location.replace("/members");
         // If there's an error, handle it by throwing up a bootstrap alert
       })
