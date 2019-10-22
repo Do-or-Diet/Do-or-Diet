@@ -22,7 +22,6 @@ module.exports = function(app) {
       activity_level: req.body.activity_level,
       weight: req.body.weight,
       goal: req.body.goal,
-      plant_based: req.body.plant_based,
       restrictions: req.body.restrictions,
       calorie: req.body.calorie
     })
