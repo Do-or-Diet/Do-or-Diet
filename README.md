@@ -29,6 +29,7 @@ Do or Diet is the app for you if you are looking to find the diet for you. Simpl
 2. If you don't have a log in, click on the sign in and enter in your personal information. 
 3. Enter in the diet that most interests you then click submit. 
 4. Once you press sumbit, you will be presented with a diet and with various recipe/ mealprep ideas. 
+5. The outcome will show nutritional information and recipes to choose from.
 
 
 
