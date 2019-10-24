@@ -23,7 +23,9 @@ CHomp- Nutrition Info
 
 
 
-Do or Diet is the app for you if you are looking to find the diet for you. Simply log in your personal information to create an account. Here are the instructions for use:
+1. Do or Diet is the app for you if you are looking to find the diet for you. Simply log in your personal information to create an account. Here are the instructions for use:
+
+USE:
 
 1. Enter your email and password into the login page. 
 2. If you don't have a log in, click on the sign in and enter in your personal information. 
@@ -33,11 +35,13 @@ Do or Diet is the app for you if you are looking to find the diet for you. Simpl
 
 
 
-Technologies Used: 
+2. Technologies Used: 
 - Skeleton
 - Sequelize
 - Express
 - HTML
 - CSS
 
-This project was our first attempt at a full stack application and we went off of the MVP model. Our main goal was to get an app that functions. By that we mean an app that records and logs in user information and data, as well as projecting a simple but effective front end experience. 
+3. This project was our first attempt at a full stack application and we went off of the MVP model. Our main goal was to get an app that functions. By that we mean an app that records and logs in user information and data, as well as projecting a simple but effective front end experience. 
+
+4. The organization for the project was divided up between 3 people. 1 person setting up the routes and server, 1 person working on a log in and ajax calls, and 1 person on design and functionality of buttons. 
