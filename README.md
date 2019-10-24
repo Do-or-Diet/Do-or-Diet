@@ -23,7 +23,8 @@ CHomp- Nutrition Info
 
 
 
-1. Do or Diet is the app for you if you are looking to find the diet for you. Simply log in your personal information to create an account. Here are the instructions for use:
+1. Do or Diet is the app f
+or you if you are looking to find the diet for you. Simply log in your personal information to create an account. Here are the instructions for use:
 
 USE:
 
@@ -44,4 +45,4 @@ USE:
 
 3. This project was our first attempt at a full stack application and we went off of the MVP model. Our main goal was to get an app that functions. By that we mean an app that records and logs in user information and data, as well as projecting a simple but effective front end experience. 
 
-4. The organization for the project was divided up between 3 people. 1 person setting up the routes and server, 1 person working on a log in and ajax calls, and 1 person on design and functionality of buttons. 
+4. The organization for the project was divided up between 3 people. 1 person setting up the routes and server, 1 person working on a log in and ajax calls, and 1 person on design and functionality of buttons as well as a setup of the database.. 
